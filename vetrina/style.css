@@ -1,0 +1,78 @@
+:root{
+    --main-color: #4158D0;
+    --second-color: rgb(0, 28, 85);
+    --white-color:rgb(216, 242, 253);
+    --shade-color:rgb(10, 36, 114);
+    --accent-color:#c07455;
+    --full-color:#FFCC70;
+    --masthead-color:rgb(22, 26, 66);
+}
+
+/*
+h1 font-family: 'Odibee Sans', cursive;
+h2 font-family: 'Righteous', cursive;
+p font-family: 'Cabin', sans-serif;
+*/
+
+.nav-bar{
+    background-color: var(--second-color);
+    position: sticky;
+    top: 0px;
+    height: 70px;
+}
+
+.nav-title{
+    color: var(--accent-color);
+    font-family: 'Odibee Sans', cursive;
+    font-size: 70px;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.masthead{
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #c07455 26%, #FFCC70 100%);
+}
+.masthead-1{
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(140deg, #4158D0 0%, #c07455 26%, #FFCC70 100%);
+    
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hello{
+    font-family: 'Odibee Sans', cursive;
+    color:var(--shade-color);
+    font-size: 70px;
+    text-decoration: none;
+}
+.iam{
+    font-family: 'Odibee Sans', cursive;
+    color:var(--full-color);
+    font-size: 70px;
+    text-decoration: none;
+}
+.ea{
+    font-family: 'Odibee Sans', cursive;
+    color: var(--main-color);
+    font-size: 70px;
+    text-decoration: none;
+
+}
+
+.title{
+    font-family: 'Odibee Sans', cursive;
+    color:var(--shade-color);
+    font-size: 60px;
+}
+
+.second{
+    background-color: var(--second-color);
+    position: sticky;
+    top: 0px;
+    height: 70px;
+}
